@@ -20,7 +20,7 @@ Example Playbook
 ```yaml
 - hosts: servers
   roles:
-    - name: dns
+    - name: ansible.role.dnsmasq
       vars:
         localdomain: local.net
         upstream_dns_servers:
